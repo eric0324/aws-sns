@@ -1,0 +1,15 @@
+{
+  "name": "sns-sms-sender",
+  "version": "1.0.0",
+  "private": true,
+  "description": "One-off CLI to send fixed SMS to multiple recipients via AWS SNS",
+  "main": "send-sms.js",
+  "scripts": {
+    "test": "node --test",
+    "start": "node send-sms.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sns": "^3.668.0",
+    "dotenv": "^16.4.5"
+  }
+}
